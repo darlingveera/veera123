@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var a=40;
+        var b=10;
+        console.log(a+b);
+        console.log(a-b);
+        console.log(a*b);
+        console.log(a*b/100)
+
+        var marks=75;
+        if(marks>80){
+            console.log("grade A")
+        }else{
+            console.log("grade B")
+        }
+
+        
+       
+        for(var a=1;a<=13;a++){
+             if(a%2==0){
+                 console.log (a);
+
+           }
+             
+         }
+         for(var a=1;a<=13;a++){
+             if(a%2!=0){
+                 console.log (a);
+             }
+             
+         }
+           var i,c=0;
+           var n=3;
+           for(var i=1;i<=n;i++){
+               if(n%i==0){
+                   c++
+               }
+           }
+           if (c==2){
+               console.log("prime number") 
+
+               } else {
+                   console.log("not prime number")
+
+               }
+           
+         function check(str) {
+             const len=str.length;
+             for(var i=0;i<len/2;i++){
+                 if(str[i]!==str[len-1-i]){
+                 
+                  console.log("not a palindrome");
+                 }
+                }
+                  console.log("this is palindrome");
+                
+            }
+          check("dad");
+          
+    </script>
+    
+        
+    
+</body>
+</html>
